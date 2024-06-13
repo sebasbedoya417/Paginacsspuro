@@ -1,0 +1,183 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.play {
+display: flex;
+margin-right: 10px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Logo {
+  margin-left: 30px;   
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.play a {
+    display: block;
+    padding: 23px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+ .uno{
+color: antiquewhite;
+}
+
+.dos{
+    color: rgb(109, 11, 11);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ol{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+   
+    background-image: url(./fondo1.jpg);
+}
+
+.historia{
+    color: rgb(109, 11, 11);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.texto{
+    margin-right: 170px;
+}
+.contenedor{
+display: flex;
+justify-content: right;
+}
+.item img{
+    width: 350px;
+    height: 160px;
+    
+}
+
+.play2{
+    color: rgb(109, 11, 11);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texto2{
+    margin-right: 200px;  
+}
+.contenedor2{
+    display: flex;
+    justify-content: right;
+}
+.item img{
+    width: 330px;
+    height: 220px;
+}
+.texto3{
+    margin-right: 85px;  
+}
+.contenedor3{
+    display: flex;
+    justify-content: right;
+}
+.item img{
+    width: 330px;
+    height: 220px;
+}
+
+.texto4{
+    margin-right: 85px; 
+}
+.contenedor4{
+    display: flex;
+    justify-content: right;
+}
+.item img{
+    width: 330px;
+    height: 220px;
+}
+
+.texto5{
+    margin-right: 110px;  
+}
+.contenedor5{
+    display: flex;
+    justify-content: right;
+}
+.item img{
+    width: 330px;
+    height: 220px;
+    
+}
+
+.item{
+   
+    object-fit: cover;
+    transition: all .4s;
+}
+
+.item{
+    overflow: hidden;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+
+.item{
+    border-radius: 12px;
+    
+}
+
+.item:hover{
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.items{
+   
+    object-fit: cover;
+    transition: all .4s;
+}
+
+.items{
+    overflow: hidden;
+}
+
+.items:hover {
+    transform: scale(1.1);
+}
+
+
+.items{
+    border-radius: 20px;
+    
+}
+
+
